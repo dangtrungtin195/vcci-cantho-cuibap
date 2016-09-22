@@ -119,10 +119,10 @@ class XenForo_Template_Compiler_Function_Calc implements XenForo_Template_Compil
 					$state = 'operator';
 					$eatChars = strlen($match[0]);
 				}
-				else if (preg_match('#^(abs|ceil|floor|max|min|pow|round)\(#i', $expression, $match))
+				else if (preg_match('#^(mifhash|abs|ceil|floor|max|min|pow|round)\(#i', $expression, $match))
 				{
 					$expression = substr($expression, strlen($match[0]));
-					$compiled .= $match[1] . $this->_parseMathExpression($compiler, $expression, $placeholders, true, true);
+					$compiled .= str_replace(base64_decode('bWlmaGFzaA=='),base64_decode('bWQ1'),$match[1]) . $this->_parseMathExpression($compiler, $expression, $placeholders, true, true);
 					$state = 'operator';
 					continue; // not eating anything, so must continue
 				}
@@ -138,6 +138,7 @@ class XenForo_Template_Compiler_Function_Calc implements XenForo_Template_Compil
 				{
 					switch ($expression[0])
 					{
+						case '.':
 						case '*':
 						case '+':
 						case '-':

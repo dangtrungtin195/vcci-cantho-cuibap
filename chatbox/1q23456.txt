@@ -1,0 +1,7 @@
+prune1 > 33598 > raven > 1335664371 > <span class='smallfont'>Nick: <span onclick="click_chat('raven');" style="cursor: pointer;"></span><b>raven</b> vừa dọn dẹp shoutbox !</span>
+chat > 33598 > raven > 1335664385 > <span onclick="click_chat('raven');" style="cursor: pointer;"></span><a href='http://forum.net/home.php?mod=space&uid=33598' target='_blank'><b>raven</b></a>: MIF test
+chat > 33598 > raven > 1335664961 > <span onclick="click_chat('raven');" style="cursor: pointer;"></span><a href='http://forum.net/home.php?mod=space&uid=33598' target='_blank'><b>raven</b></a>: <img src='http://us.i1.yimg.com/us.yimg.com/i/mesg/emoticons7/21.gif' border='0' /> 
+chat > 2 > admin > 1474536313 > <span onclick="click_chat('admin');" style="cursor: pointer;"></span><a href='http://forum.net/home.php?mod=space&uid=2' target='_blank'><b>admin</b></a>: á đù
+chat > 3 > Đặng Trung Tín > 1474536876 > <span onclick="click_chat('Đặng Trung Tín');" style="cursor: pointer;"></span><a href='http://forum.net/home.php?mod=space&uid=3' target='_blank'><b>Đặng Trung Tín</b></a>: tui la gay
+chat > 2 > admin > 1474536887 > <span onclick="click_chat('admin');" style="cursor: pointer;"></span><a href='http://forum.net/home.php?mod=space&uid=2' target='_blank'><b>admin</b></a>: cùng chơi gay
+chat > 3 > Đặng Trung Tín > 1474536897 > <span onclick="click_chat('Đặng Trung Tín');" style="cursor: pointer;"></span><a href='http://forum.net/home.php?mod=space&uid=3' target='_blank'><b>Đặng Trung Tín</b></a>: gay la ai

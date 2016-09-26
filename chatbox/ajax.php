@@ -34,7 +34,7 @@ img:hover{background:#666666}
 
 </div>
 
-<?
+<?php
 $smilieperrow = "10";
 $randomsmilie = "10";
 $filematcuoi = "fcb_smilies.txt";
